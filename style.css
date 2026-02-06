@@ -136,7 +136,7 @@ nav {
 }
 
 #notes {
-    margin-top: 45px;  
+    margin: 45px 120px 0px 120px;  
 }
 
 .notes-container {
@@ -197,6 +197,54 @@ nav {
 
 .note-card p {  
     font-size: 16px;
+    line-height: 25px;
+    color: #627382;
+}
+
+.second-brain-container {
+    display: flex; 
+    padding: 120px; 
+    justify-content: center;                                                            
+    align-items: center;
+    gap: 60px;
+}
+
+.seconde-brain-image {  
+    max-width: 600px;
+    border-radius: 12px;
+}
+
+.second-brain-content { 
+    max-width: 700px;
+}
+
+.second-brain-content h2 {   
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    line-height: 58px;
+    margin-top: 16px;     
+    margin-bottom: 16px;
+}
+
+.second-brain-content p {
+    font-size: 16px;
     line-height: 20px;
     color: #627382;
+    margin-bottom: 40px;   
+}
+
+.section-message {   
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    line-height: 20px;
+}
+
+.brain-list li {
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    list-style: none;  
+    margin-bottom: 16px;  
 }
