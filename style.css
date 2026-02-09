@@ -11,7 +11,7 @@
 
 header {
     background-color: #FFFFFF;
-    padding: 16px 120px;
+    padding: 16px;
 }
 
 nav {   
@@ -36,7 +36,7 @@ nav {
     color: #000000;
 }
 
-.btn, .btn1 {
+.btn, .btn1, .btn3 {
     padding: 12px 16px;
     border-radius: 4px;
     border: none;
@@ -45,6 +45,13 @@ nav {
     font-size: 16px;  
     font-weight: 600;
     cursor: pointer;
+}
+
+.btn1, .btn3 {     
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 }
 
 .btn:hover {
@@ -60,7 +67,7 @@ nav {
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 674px;
+    min-height: 700px;
     padding: 70px 120px 134px 120px;
 }
 
@@ -98,6 +105,7 @@ nav {
     border-radius: 1000px;
     display: inline-block; 
     margin-bottom: 16px;  
+    margin-top: 60px;
 }
 
 .dot {      
@@ -246,5 +254,35 @@ nav {
     font-weight: 500;
     color: #001931;
     list-style: none;  
+}
+
+.early-access-container {
+    background-color: #F7F6F2; 
+    padding: 80px 40px;    
+    text-align: center;
+    margin: 2px 120px 120px 120px;
+}
+
+.early-access-container h2 {  
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
     margin-bottom: 16px;  
+}
+
+.subtitle {  
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 600px;
+}
+
+.note {  
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;  
 }
