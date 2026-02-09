@@ -11,7 +11,7 @@
 
 header {
     background-color: #FFFFFF;
-    padding: 16px;
+    padding: 16px 120px;
 }
 
 nav {   
@@ -47,6 +47,10 @@ nav {
     cursor: pointer;
 }
 
+.btn2 a {
+    color: #FFFFFF;
+}
+
 .btn1, .btn3 {     
     display: inline-flex;
     justify-content: center;
@@ -54,7 +58,7 @@ nav {
     gap: 12px;
 }
 
-.btn:hover {
+.btn:hover, .btn1:hover, .btn3:hover {
     background-color: darkgreen; 
 }
 
@@ -141,6 +145,10 @@ nav {
     border: 1px solid #FFFFFF;   
     border-radius: 4px;
     color: #FFFFFF;
+}
+
+.btn2 a {
+    text-decoration: none; 
 }
 
 #notes {
@@ -249,11 +257,11 @@ nav {
     line-height: 20px;
 }
 
-.brain-list li {
-    font-size: 16px;
-    font-weight: 500;
-    color: #001931;
-    list-style: none;  
+.brain-list li {  
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .early-access-container {
@@ -285,4 +293,54 @@ nav {
     line-height: 20px;
     color: #627382;
     margin-top: 16px;  
+}
+
+#footer {  
+    background-color: #001931;
+    padding: 120px 120px 30px;
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-right h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-social a {
+    color: #FFFFFF;
+}
+
+.footer-divider{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-copy {
+    font-size: 16px;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.footer-social a:hover, .btn2 a:hover {
+    color: #30B868;
 }
